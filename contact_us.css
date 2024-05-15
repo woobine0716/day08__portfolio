@@ -1,0 +1,58 @@
+.contact_us {
+    max-width: var(--maxWidth--desktop);
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    gap: 5px;
+}
+
+.contact_us h1 {
+    font-size: var(--font--size--big);
+}
+
+.contact_us h2 {
+    font-size: var(--font--size--big);
+}
+
+.contact_us__Agency {
+    width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+
+
+}
+.contact_us__Instagram {
+    gap: 5px;
+    width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.contact_us__Instagram h1 {
+    color: var(--pink400);
+}
+
+.contact_us__Instagram i {
+    color: var(--pink600);
+    font-size: var(--font--size--mega);
+}
+
+@media screen and (max-width: 1024px) {
+    .contact_us h1 {
+        font-size: var(--font--size--small);
+    }
+    
+    .contact_us h2 {
+        font-size: var(--font--size--small);
+    }
+
+    .contact_us__Instagram i {
+        color: var(--pink600);
+        font-size: 25px;
+    }
+}

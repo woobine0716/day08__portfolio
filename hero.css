@@ -1,0 +1,180 @@
+.hero {
+    padding-top: 10px;
+    max-width: var(--maxWidth--desktop);
+}
+
+.hero h1 {
+    font-size: var(--font--size--mega);
+}
+
+.hero h2 {
+    font-size: var(--font--size--big);
+}
+
+.hero h3 {
+    font-size: var(--font--size--small);
+}
+
+.hero__information__image {
+    width: 100vw;
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero__information__image img {
+    width: 650px;
+    height: 500px;
+}
+
+.hero__information__image__first {
+display: flex;
+
+}
+.hero__information__image__second {
+display: flex;
+}
+
+.hero__short {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 15px;
+}
+.hero__category {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 200px;
+    gap: 30px;
+}
+
+.hero__birth {
+    padding: 0 12px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__birth i {
+    color: var(--pink500);
+    font-size: var(--font--size--mega);
+}
+
+.hero__filmography {
+    padding: 0 12px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__filmography i {
+    color: var(black);
+    font-size: var(--font--size--mega);
+}
+
+.hero__award {
+    padding: 0 12px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__award i {
+    color: var(--yellow1);
+    font-size: var(--font--size--mega);
+}
+
+.hero__sns {
+    padding: 0 12px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__sns i {
+    color: var(--pink400);
+    font-size: var(--font--size--mega);
+}
+
+@media screen and (max-width: 1024px) {
+.hero {
+    max-width: var(--maxWidth--mobile);
+}
+
+.hero h1 {
+    font-size: var(--font--size--big);
+}
+
+.hero h2 {
+    font-size: var(--font--size--big);
+}
+
+.hero h3 {
+    font-size: var(--font--size--small);
+}
+
+.hero__information__image img {
+    width: 325px;
+    height: 250px;
+}
+.hero__short {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.hero__category {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero__birth {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.hero__birth i {
+    font-size: var(--font--size--big);
+}
+
+.hero__filmography {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero__filmography i {
+    font-size: var(--font--size--big);
+}
+
+.hero__award{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero__award i {
+    font-size: var(--font--size--big);
+}
+
+.hero__sns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}

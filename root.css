@@ -1,0 +1,43 @@
+:root {
+    /* font family */
+    --font--Family: 'YEONGJUSeonbiTTF';
+    /* font size */
+    --font--size--mega: 42px;
+    --font--size--big: 26px;
+    --font--size--small: 16px;
+    --font--size--min: 14px;
+  
+    /* color */
+    --white: #fff;
+    --black: #000;
+    --gray50: #f5f5f5;
+    --gray100: #eee;
+    --gray200: #dedede;
+    --gray500: #757575;
+    --gray700: #4e4e4e;
+    --gray900: #1f1f1f;
+    --pink400: #ff4757;
+    --pink500: #ff5160;
+    --pink600: #db3b57;
+    --blue: #3f51b5;
+    --light__blue: rgba(110, 119, 173);
+    --yellow1: #eccc68;
+  
+    /* padding */
+    --padding--button: 14px 16px;
+    /* border radius */
+    --borderRadius--small: 12px;
+    --borderRadius--medium: 20px;
+  
+    /* max-width */
+    --maxWidth--desktop: 960px;
+    /* --maxWidth--tablet: 628px; */
+    --maxWidth--mobile: 400px;
+  }
+  @font-face {
+    font-family: 'YEONGJUSeonbiTTF';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403@1.0/YEONGJUSeonbiTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+  
